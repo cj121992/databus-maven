@@ -1,0 +1,8 @@
+connection.arguments=
+connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(D\:\\Program Files\\gradle-3.1))
+connection.java.home=null
+connection.jvm.arguments=
+connection.project.dir=..
+derived.resources=.gradle
+eclipse.preferences.version=1
+project.path=\:databus2-relay
