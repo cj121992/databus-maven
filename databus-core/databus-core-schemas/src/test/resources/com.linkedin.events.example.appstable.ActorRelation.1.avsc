@@ -1,0 +1,45 @@
+{
+  "name" : "ActorRelation_V1",
+  "doc" : "Auto-generated Avro schema for UserRelation. Generated at Dec 04, 2012 05:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=actor_relation;pk=actor_id,type,relation_id;",
+  "namespace" : "com.linkedin.events.example.appstable",
+  "fields" : [ {
+    "name" : "actor_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=actor_id;dbFieldPosition=0;"
+  }, {
+    "name" : "type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=type;dbFieldPosition=1;"
+  }, {
+    "name" : "relation_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=relation_id;dbFieldPosition=2;"
+  }, {
+    "name" : "operator_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=operator_id;dbFieldPosition=3;"
+  }, {
+    "name" : "create_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=create_time;dbFieldPosition=4;"
+  }, {
+    "name" : "end_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=create_time;dbFieldPosition=5;"
+  }, {
+    "name" : "operator_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=create_time;dbFieldPosition=6;"
+  }, {
+    "name" : "extend_data",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=extend_data;dbFieldPosition=7;"
+  }, {
+    "name" : "op_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=op_type;dbFieldPosition=8;"
+  }
+  ]
+}
