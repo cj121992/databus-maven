@@ -1,0 +1,9 @@
+#Thu Jul 20 14:14:35 CST 2017
+connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(D\:\\Program Files\\gradle-3.1))
+derived.resources=.gradle
+connection.arguments=
+connection.java.home=null
+connection.jvm.arguments=
+eclipse.preferences.version=1
+project.path=\:databus2-example\:database
+connection.project.dir=../..
