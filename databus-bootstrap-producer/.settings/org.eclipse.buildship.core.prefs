@@ -1,0 +1,9 @@
+#Thu Nov 09 11:05:38 CST 2017
+connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(D\:\\Program Files\\gradle-3.1))
+derived.resources=.gradle
+connection.java.home=null
+connection.arguments=
+eclipse.preferences.version=1
+connection.jvm.arguments=
+project.path=\:databus-bootstrap-producer
+connection.project.dir=..
