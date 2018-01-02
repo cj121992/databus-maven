@@ -14,7 +14,7 @@
 ## 源码解读文档地址:
    
 ## pg接入databus架构图:
-   ![](http://10.0.16.6/KKDevLib_Server/Common/framework/databus-maven/raw/develop/gif/test.png)  
+   ![](https://raw.githubusercontent.com/cj121992/databus-maven/master/sources/test.png)  
 
 ## pg接入databus步骤:
    - **1.数据库logical_decoding功能开启**
