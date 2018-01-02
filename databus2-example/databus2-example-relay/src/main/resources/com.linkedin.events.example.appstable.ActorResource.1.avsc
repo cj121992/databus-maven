@@ -1,0 +1,33 @@
+{
+  "name" : "ActorResource_V1",
+  "doc" : "Auto-generated Avro schema for ActorResource. Generated at Nov 15, 2017 09:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=actor_resource_info;pk=actor_id,resource_id,resource_type;",
+  "namespace" : "com.linkedin.events.example.appstable",
+  "fields" : [ {
+    "name" : "actor_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=actor_id;dbFieldPosition=0;"
+  }, {
+    "name" : "resource_type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=resource_type;dbFieldPosition=1;"
+  }, {
+    "name" : "resource_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=resource_id;dbFieldPosition=2;"
+  }, {
+    "name" : "resource_remark",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=resource_remark;dbFieldPosition=3;"
+  }, {
+    "name" : "update_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=update_time;dbFieldPosition=3;"
+  },{
+    "name" : "op_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=op_type;dbFieldPosition=24;"
+  }
+  ]
+}

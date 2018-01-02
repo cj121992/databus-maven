@@ -1,0 +1,20 @@
+{
+  "name" : "UserRelation_V1",
+  "doc" : "Auto-generated Avro schema for UserRelation. Generated at Dec 04, 2012 05:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=person;pk=user_id,followed_id;",
+  "namespace" : "com.linkedin.events.example.appstable",
+  "fields" : [ {
+    "name" : "user_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=user_id;dbFieldPosition=0;"
+  }, {
+    "name" : "followed_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=followed_id;dbFieldPosition=1;"
+  }, {
+    "name" : "add_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=add_time;dbFieldPosition=2;"
+  }]
+}

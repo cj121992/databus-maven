@@ -1,0 +1,16 @@
+{
+  "name" : "Person_V1",
+  "doc" : "Auto-generated Avro schema for person. Generated at Dec 04, 2012 05:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=person;pk=userid;",
+  "namespace" : "com.linkedin.events.example.pg_test",
+  "fields" : [ {
+    "name" : "userid",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=userid;dbFieldPosition=0;"
+  }, {
+    "name" : "nickname",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=nickname;dbFieldPosition=1;"
+  }]
+}

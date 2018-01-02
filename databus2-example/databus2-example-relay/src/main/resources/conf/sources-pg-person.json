@@ -1,0 +1,39 @@
+{
+    "name" : "person",
+    "id"  : 1,
+    "uri" : "jdbc:postgresql://10.0.0.15:5432/appstable",
+    "slowSourceQueryThreshold" : 2000,
+    "sources" :
+    [
+         {
+         "id" : 41,
+         "name" : "com.linkedin.events.example.appstable.UserRelation",
+         "uri" : "public.user_relation",
+         "partitionFunction" : "constant:1"
+         },
+         {
+         "id" : 51,
+         "name" : "com.linkedin.events.example.appstable.ActorRelation",
+         "uri" : "public.actor_relation",
+         "partitionFunction" : "constant:2"
+         },
+         {
+         "id" : 1,
+         "name" : "com.linkedin.events.example.appstable.ActorInfo",
+         "uri" : "public.actor_info",
+         "partitionFunction" : "constant:3"
+         },
+         {
+         "id" : 2,
+         "name" : "com.linkedin.events.example.appstable.RoomInfo",
+         "uri" : "public.room_info",
+         "partitionFunction" : "constant:4"
+         },
+         {
+         "id" : 3,
+         "name" : "com.linkedin.events.example.appstable.ActorResource",
+         "uri" : "public.actor_resource_info",
+         "partitionFunction" : "constant:5"
+         }
+    ]
+}

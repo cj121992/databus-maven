@@ -1,0 +1,129 @@
+{
+  "name" : "ActorInfo_V1",
+  "doc" : "Auto-generated Avro schema for ActorInfo. Generated at Nov 15, 2017 09:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=actor_info;pk=actor_id;",
+  "namespace" : "com.linkedin.events.example.appstable",
+  "fields" : [ {
+    "name" : "actor_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=actor_id;dbFieldPosition=0;"
+  }, {
+    "name" : "nickname",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=nickname;dbFieldPosition=1;"
+  }, {
+    "name" : "poster",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=poster;dbFieldPosition=2;"
+  }, {
+    "name" : "live_poster",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=live_poster;dbFieldPosition=3;"
+  }, {
+    "name" : "hd_poster",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=hd_poster;dbFieldPosition=4;"
+  }, {
+    "name" : "actor_level",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=actor_level;dbFieldPosition=5;"
+  }, {
+    "name" : "is_recommend",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=is_recommend;dbFieldPosition=6;"
+  }, {
+    "name" : "is_display",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=is_display;dbFieldPosition=7;"
+  }, {
+    "name" : "join_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=join_time;dbFieldPosition=8;"
+  }, {
+    "name" : "sign_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=sign_time;dbFieldPosition=9;"
+  }, {
+    "name" : "levels",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=levels;dbFieldPosition=10;"
+  }, {
+    "name" : "note",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=note;dbFieldPosition=11;"
+  }, {
+    "name" : "register_city",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=register_city;dbFieldPosition=12;"
+  }, {
+    "name" : "vedio_level",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=vedio_level;dbFieldPosition=13;"
+  }, {
+    "name" : "is_good",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=is_good;dbFieldPosition=14;"
+  }, {
+    "name" : "rich_level",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=rich_level;dbFieldPosition=15;"
+  }, {
+    "name" : "type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=type;dbFieldPosition=16;"
+  }, {
+    "name" : "portrait",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=portrait;dbFieldPosition=17;"
+  }, {
+    "name" : "gender",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=gender;dbFieldPosition=18;"
+  }, {
+    "name" : "family_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=family_id;dbFieldPosition=19;"
+  }, {
+    "name" : "salary_formula",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=salary_formula;dbFieldPosition=20;"
+  }, {
+    "name" : "greetmsg",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=greetmsg;dbFieldPosition=21;"
+  }, {
+    "name" : "greetmsg_href",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=greetmsg_href;dbFieldPosition=22;"
+  }, {
+    "name" : "birthday",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=birthday;dbFieldPosition=23;"
+  }, {
+    "name" : "operator_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=operator_id;dbFieldPosition=24;"
+  }, {
+    "name" : "is_authentication",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=is_authentication;dbFieldPosition=25;"
+  }, {
+    "name" : "can_live",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=can_live;dbFieldPosition=26;"
+  }, {
+    "name" : "extra_msg",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=extra_msg;dbFieldPosition=27;"
+  }, {
+    "name" : "leave_reason",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=leave_reason;dbFieldPosition=28;"
+  }, {
+    "name" : "op_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=op_type;dbFieldPosition=29;"
+  }
+  ]
+}

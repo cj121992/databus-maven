@@ -1,0 +1,109 @@
+{
+  "name" : "RoomInfo_V1",
+  "doc" : "Auto-generated Avro schema for RoomInfo. Generated at Nov 15, 2017 09:07:05 PM PST",
+  "type" : "record",
+  "meta" : "dbFieldName=room_info;pk=room_id;",
+  "namespace" : "com.linkedin.events.example.appstable",
+  "fields" : [ {
+    "name" : "room_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=room_id;dbFieldPosition=0;"
+  }, {
+    "name" : "room_name",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=room_name;dbFieldPosition=1;"
+  }, {
+    "name" : "live_type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=live_type;dbFieldPosition=2;"
+  }, {
+    "name" : "create_time",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=create_time;dbFieldPosition=3;"
+  }, {
+    "name" : "live_starttime",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=live_starttime;dbFieldPosition=4;"
+  }, {
+    "name" : "live_endtime",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=live_endtime;dbFieldPosition=5;"
+  }, {
+    "name" : "next_starttime",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=next_starttime;dbFieldPosition=6;"
+  }, {
+    "name" : "max_count",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=max_count;dbFieldPosition=7;"
+  }, {
+    "name" : "room_mode",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=room_mode;dbFieldPosition=8;"
+  }, {
+    "name" : "room_theme",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=room_theme;dbFieldPosition=9;"
+  }, {
+    "name" : "tag",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tag;dbFieldPosition=10;"
+  }, {
+    "name" : "room_lock",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=room_lock;dbFieldPosition=11;"
+  }, {
+    "name" : "screen_type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=screen_type;dbFieldPosition=12;"
+  }, {
+    "name" : "room_source",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=room_source;dbFieldPosition=13;"
+  }, {
+    "name" : "enter_condition_type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=enter_condition_type;dbFieldPosition=14;"
+  }, {
+    "name" : "enter_condition",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=enter_condition;dbFieldPosition=15;"
+  }, {
+    "name" : "notice_content",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=notice_content;dbFieldPosition=16;"
+  }, {
+    "name" : "notice_href",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=notice_href;dbFieldPosition=17;"
+  }, {
+    "name" : "room_introduce",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=room_introduce;dbFieldPosition=18;"
+  }, {
+    "name" : "room_type",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=room_type;dbFieldPosition=19;"
+  }, {
+    "name" : "description",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=description;dbFieldPosition=20;"
+  }, {
+    "name" : "live_mode",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=live_mode;dbFieldPosition=21;"
+  }, {
+    "name" : "pull_flow_count",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=pull_flow_count;dbFieldPosition=22;"
+  }, {
+    "name" : "res_room_id",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=res_room_id;dbFieldPosition=23;"
+  },{
+    "name" : "op_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=op_type;dbFieldPosition=24;"
+  }
+  ]
+}
