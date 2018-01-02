@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+        
+	<context:property-placeholder location="classpath:datasource.properties" />
+	
+	<context:component-scan base-package="com.melot.databus.client" />
+	
+	<bean id="dataSource_oracle_master" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close" lazy-init="true">
+		<property name="driverClassName" value="${spring.ds.tshow.driverClassName}" />
+		<property name="url" value="${spring.ds.tshow.url}" />
+		<property name="username" value="${spring.ds.tshow.username}" />
+		<property name="password" value="${spring.ds.tshow.password}" />
+		<property name="validationQuery" value="${spring.ds.tshow.validationQuery}" />
+
+		<property name="poolPreparedStatements" value="${spring.ds.tshow.poolPreparedStatements}" />
+		<property name="initialSize" value="${spring.ds.tshow.initialSize}" />
+		<property name="maxActive" value="${spring.ds.tshow.maxActive}" />
+		<property name="maxIdle" value="${spring.ds.tshow.maxIdle}" />
+		<property name="maxWait" value="${spring.ds.tshow.maxWait}" />
+		<property name="minIdle" value="${spring.ds.tshow.minIdle}" />
+		<property name="numTestsPerEvictionRun" value="${spring.ds.tshow.numTestsPerEvictionRun}" />
+		<property name="testWhileIdle" value="${spring.ds.tshow.testWhileIdle}" />
+		<property name="testOnBorrow" value="${spring.ds.tshow.testOnBorrow}" />
+		<property name="defaultAutoCommit" value="${spring.ds.tshow.defaultAutoCommit}" />
+	</bean>
+
+</beans>
